@@ -65,10 +65,9 @@ class LoginPage extends StatelessWidget {
                     decoration: InputDecoration(
                       labelText: 'Email',
                       labelStyle: const TextStyle(
-                          fontSize: 20.0,
-                          color: Color.fromARGB(255, 255, 246, 246)),
+                          fontSize: 20.0, color: kHighlightColor),
                       fillColor: Colors.white.withOpacity(
-                          0.5), // Added background color to the text field
+                          0.2), // Added background color to the text field
                       filled: true,
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10),
@@ -86,10 +85,10 @@ class LoginPage extends StatelessWidget {
                     controller: _passwordController,
                     decoration: InputDecoration(
                       labelText: 'Password',
-                      labelStyle:
-                          const TextStyle(fontSize: 20.0, color: Colors.white),
+                      labelStyle: const TextStyle(
+                          fontSize: 20.0, color: kHighlightColor),
                       fillColor: Colors.white.withOpacity(
-                          0.5), // Added background color to the text field
+                          0.2), // Added background color to the text field
                       filled: true,
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10),
